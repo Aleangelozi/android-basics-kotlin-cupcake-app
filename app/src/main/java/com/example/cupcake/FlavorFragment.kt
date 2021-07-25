@@ -51,6 +51,7 @@ class FlavorFragment : Fragment() {
         binding?.apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel = sharedViewModel
+            flavorFragment = this@FlavorFragment
         }
     }
 

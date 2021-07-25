@@ -51,6 +51,7 @@ class PickupFragment : Fragment() {
         binding?.apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel =sharedViewModel
+            pickupFragment = this@PickupFragment
         }
     }
 

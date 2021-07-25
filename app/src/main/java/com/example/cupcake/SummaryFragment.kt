@@ -52,6 +52,7 @@ class SummaryFragment : Fragment() {
         binding?.apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel = sharedViewModel
+            summaryFragment = this@SummaryFragment
         }
     }
 
